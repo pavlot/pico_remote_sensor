@@ -1,0 +1,34 @@
+kibot:
+  version: 1
+
+preflight:
+  run_drc: false
+
+outputs:
+  - name: "png_front"
+    comment: "PNG for front layer"
+    type: pcbdraw
+    dir: images
+    options:
+      bottom: false
+      mirror: false
+
+  - name: "png_back"
+    comment: "PNG for back layer"
+    type: pcbdraw
+    dir: images
+    options:
+      bottom: true
+      mirror: false
+
+  # - name: "svg_sch_print"
+  #   type: svg_sch_print
+  #   comment: "Schematics SVG"
+  #   dir: images
+      
+  - name: "bom"
+    type: bom
+    comment: "BOM"
+    dir: .
+    options:
+      format: HTML

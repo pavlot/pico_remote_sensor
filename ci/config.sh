@@ -10,6 +10,7 @@ fi
 PROJECT_NAME=pico_remote_sensor
 KICAD_SRC_DIR=${BASEDIR}/kicad
 PRODUCTION_DIR=${BASEDIR}/photoresisting_production
+DOC_DIR=${BASEDIR}/doc
 SHEMATICS_FILE=${KICAD_SRC_DIR}/${PROJECT_NAME}.kicad_sch
 PCB_FILE=${KICAD_SRC_DIR}/${PROJECT_NAME}.kicad_pcb
 

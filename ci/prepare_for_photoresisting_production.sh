@@ -17,5 +17,8 @@ $PCB2GCODE_BIN \
 --drill-speed=10000 --milldrill=false --nog81=true --nog91-1=true \
 --onedrill=true --zdrill=-1.7000 --drill-output $DRILL_OUT --output-dir=$DRILL_OUTPUT_DIR
 
-#sh ${BASEDIR}/generate_drill_ngc.sh
 
+cd ${PRODUCTION_DIR}
+
+# Run kibot
+${KIBOT_BIN} -c ${DOC_DIR}/build.kibot.yaml -b ${PCB_FILE} -e ${SHEMATICS_FILE}
