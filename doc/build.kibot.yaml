@@ -31,4 +31,4 @@ outputs:
     comment: "BOM"
     dir: .
     options:
-      format: HTML
+      format: CSV
