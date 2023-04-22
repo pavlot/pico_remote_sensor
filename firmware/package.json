@@ -1,0 +1,13 @@
+{
+    "v":1,
+    "hashes":[],
+    "urls": [
+    ],
+    "deps": [
+        [
+            "https://raw.githubusercontent.com/pavlot/pyrftdi/RPPico/",
+            "package"
+        ]
+    ],
+    "version": "0.0.1"
+}
