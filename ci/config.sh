@@ -13,11 +13,9 @@ PRODUCTION_DIR=${BASEDIR}/photoresisting_production
 SHEMATICS_FILE=${KICAD_SRC_DIR}/${PROJECT_NAME}.kicad_sch
 PCB_FILE=${KICAD_SRC_DIR}/${PROJECT_NAME}.kicad_pcb
 
-DRILL_FILE=drill/r_transmitter-drill.drl
-DRILL_OUT=r_transmitter-drill.ngc
-OUTPUT_DIR=drill
-
-PCB2GCODE_BIN=/home/rsh/bin/pcb2gcode-2.5.0/pcb2gcode
+DRILL_FILE=${PRODUCTION_DIR}/drill/${PROJECT_NAME}-drill.drl
+DRILL_OUT=${PROJECT_NAME}-drill.ngc
+DRILL_OUTPUT_DIR=${PRODUCTION_DIR}/drill
 
 # Look for kibot binary
 if [ -z "${KIBOT_BIN}" ]; then
@@ -25,5 +23,16 @@ if [ -z "${KIBOT_BIN}" ]; then
 fi
 if [ -z "${KIBOT_BIN}" ]; then
     echo No kibot binary found, please provide path to it with KIBOT_BIN env variable
+    exit 1 
 fi
 # End of Look for kibot binary
+
+# Look for pcb2gcode binary
+if [ -z "${PCB2GCODE_BIN}" ]; then
+    PCB2GCODE_BIN=$(which pcb2gcode)
+fi
+if [ -z "${PCB2GCODE_BIN}" ]; then
+    echo No pcb2gcode binary found, please provide path to it with PCB2GCODE_BIN env variable
+    exit 1 
+fi
+# End of Look for pcb2gcode binary
