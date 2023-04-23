@@ -3,12 +3,20 @@
     "hashes":[],
     "urls": [
         [
-            "firmware/install_as_main.py",
-            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/install_as_main.py"
+            "firmware/install_receiver.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/install_receiver.py"
         ],
         [
-            "firmware/data_reader.py",
-            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/data_reader.py"
+            "firmware/install_transmitter.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/install_transmitter.py"
+        ],
+        [
+            "firmware/transmitter.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/transmitter.py"
+        ],
+        [
+            "firmware/receiver.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/receiver.py"
         ],
         [
             "firmware/sht30.py",
