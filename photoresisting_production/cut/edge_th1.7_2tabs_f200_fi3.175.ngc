@@ -1,0 +1,108 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+M3 S12000
+G4 P3
+G0 Z10
+(Block-name: rect89)
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-X: G0 X0 Y54.8549)
+(Block-X: G1 X39.855 Y54.8549)
+(Block-X: G1 X39.855 Y0)
+(Block-X: G1 X0 Y0)
+(Block-X: G1 X0 Y54.8549)
+(Block-name: rect89 [out,conventional,ccw,cut:-1.7])
+(Block-expand: 0)
+(Block-enable: 1)
+(pass -0.600000)
+g0 z3
+g0 x0 y56.4424
+g1 z-0.6 f600
+(entered)
+g3 x-1.5875 y54.8549 i0 j-1.5875 z-0.6 f200
+g1 x-1.5875 y11.26658 z-0.6
+(tab up -0.5)
+g0 z-0.5
+g1 x-1.5875 y3.73332 z-0.5 f200
+(tab down -0.6)
+g1 z-0.6 f600
+g1 x-1.5875 y0 z-0.6 f200
+g3 x0 y-1.5875 i1.5875 j0 z-0.6
+g1 x39.855 y-1.5875 z-0.6
+g3 x41.4425 y0 i0 j1.5875 z-0.6
+g1 x41.4425 y43.58832 z-0.6
+(tab up -0.5)
+g0 z-0.5
+g1 x41.4425 y51.12158 z-0.5 f200
+(tab down -0.6)
+g1 z-0.6 f600
+g1 x41.4425 y54.8549 z-0.6 f200
+g3 x39.855 y56.4424 i-1.5875 j0 z-0.6
+g1 x0 y56.4424 z-0.6
+(pass -1.200000)
+g0 x0 y56.4424
+g1 z-1.2 f600
+(entered)
+g3 x-1.5875 y54.8549 i0 j-1.5875 z-1.2 f200
+g1 x-1.5875 y11.26658 z-1.2
+(tab up -0.5)
+g0 z-0.5
+g1 x-1.5875 y3.73332 z-0.5 f200
+(tab down -1.2)
+g1 z-1.2 f600
+g1 x-1.5875 y0 z-1.2 f200
+g3 x0 y-1.5875 i1.5875 j0 z-1.2
+g1 x39.855 y-1.5875 z-1.2
+g3 x41.4425 y0 i0 j1.5875 z-1.2
+g1 x41.4425 y43.58832 z-1.2
+(tab up -0.5)
+g0 z-0.5
+g1 x41.4425 y51.12158 z-0.5 f200
+(tab down -1.2)
+g1 z-1.2 f600
+g1 x41.4425 y54.8549 z-1.2 f200
+g3 x39.855 y56.4424 i-1.5875 j0 z-1.2
+g1 x0 y56.4424 z-1.2
+(pass -1.700000)
+g0 x0 y56.4424
+g1 z-1.7 f600
+(entered)
+g3 x-1.5875 y54.8549 i0 j-1.5875 z-1.7 f200
+g1 x-1.5875 y11.26658 z-1.7
+(tab up -0.5)
+g0 z-0.5
+g1 x-1.5875 y3.73332 z-0.5 f200
+(tab down -1.7)
+g1 z-1.7 f600
+g1 x-1.5875 y0 z-1.7 f200
+g3 x0 y-1.5875 i1.5875 j0 z-1.7
+g1 x39.855 y-1.5875 z-1.7
+g3 x41.4425 y0 i0 j1.5875 z-1.7
+g1 x41.4425 y43.58832 z-1.7
+(tab up -0.5)
+g0 z-0.5
+g1 x41.4425 y51.12158 z-0.5 f200
+(tab down -1.7)
+g1 z-1.7 f600
+g1 x41.4425 y54.8549 z-1.7 f200
+g3 x39.855 y56.4424 i-1.5875 j0 z-1.7
+g1 x0 y56.4424 z-1.7
+(exiting)
+g0 z3
+(Block-name: Footer)
+(Block-expand: 0)
+(Block-enable: 1)
+G0 Z10
+M5
+(Block-name: rect89 [tab,island,minz:-0.500000])
+(Block-expand: 0)
+(Block-enable: 0)
+(Block-color: orange)
+(Block-X: g0 x37.355 y47.35495)
+(Block-X: g0 z0)
+(Block-X: g3 x37.355 y47.35495 i2.5 j0 z0 f1200)
+(Block-X: [ ---------- cut-here ---------- ])
+(Block-X: g0 x-2.5 y7.49995)
+(Block-X: g0 z0)
+(Block-X: g3 x-2.5 y7.49995 i2.5 j0 z0 f1200)
