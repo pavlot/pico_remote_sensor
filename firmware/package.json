@@ -3,7 +3,7 @@
     "hashes":[],
     "urls": [
         [
-            "../main.py",
+            "firmware/install_as_main.py",
             "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/main.py"
         ],
         [
