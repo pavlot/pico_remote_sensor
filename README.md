@@ -1,5 +1,5 @@
 # RPi Pico remote sensor shield
-RPPico shield for sensors and wireless data transfer
+[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) shield for sensors and wireless data transfer
 
 ![Board](doc/images/board_photo.png)
 
