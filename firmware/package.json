@@ -3,6 +3,10 @@
     "hashes":[],
     "urls": [
         [
+            "/main.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/main.py"
+        ],
+        [
             "firmware/data_reader.py",
             "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/data_reader.py"
         ],
