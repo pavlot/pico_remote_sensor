@@ -4,7 +4,7 @@
     "urls": [
         [
             "firmware/install_as_main.py",
-            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/main.py"
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/install_as_main.py"
         ],
         [
             "firmware/data_reader.py",
