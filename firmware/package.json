@@ -2,6 +2,14 @@
     "v":1,
     "hashes":[],
     "urls": [
+        [
+            "firmware/data_reader.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/data_reader.py"
+        ],
+        [
+            "firmware/sht30.py",
+            "https://raw.githubusercontent.com/pavlot/pico_remote_sensor/main/firmware/src/sht30.py"
+        ]
     ],
     "deps": [
         [
