@@ -6,7 +6,11 @@ from struct import *
 from pyRFTdi.spi.SpiControllerRPPico import SpiControllerRPPico
 from machine import SPI, Pin
 import logging
-from sht30 import SHT30
+try:
+    from sht30 import SHT30
+except ImportError:
+    from firmware.sht30 import SHT30
+
 from time import sleep
 
 sht30_sensor = SHT30(scl_pin=1, sda_pin=0, delta_temp=-3, i2c_address=0x44)
