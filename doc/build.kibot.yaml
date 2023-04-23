@@ -25,10 +25,21 @@ outputs:
   #   type: svg_sch_print
   #   comment: "Schematics SVG"
   #   dir: images
-      
+
   - name: "bom"
     type: bom
     comment: "BOM"
     dir: .
     options:
       format: CSV
+      csv:
+        quote_all: true
+        hide_pcb_info: true
+        hide_stats_info: true
+      columns:
+        - Row
+        - Part
+        - References
+        - Value
+        - Footprint
+        - Quantity Per PCB
