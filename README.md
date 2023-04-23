@@ -52,3 +52,21 @@ it means that rx part is ready to receive data. Default implementation will outp
 ```
 INFO:root:Data received: cafeb0ba01
 ```
+
+Same procedure for transmitter, inside REPL session:
+```
+from firmware import transmitter
+```
+
+Transmitter expects SHT30 sensor to be connected to I2C0 bus and continuosly read it's values sending them to the air.
+Also transmitted values logged to the INFO logger
+
+### Autostart
+If you want that transmitter or receiver start on board startup you have to create main.py in the root foldef of board filesystem.
+To simplify this procedure install_* modules shipped with firmware
+For example, if you want to make trasmitter: inside mpremote REPL console execute
+```
+from firmware import install_transmitter
+```
+and reboot with `Ctrl+]` or switch-off/switch-on your device. This will make it transmitting sensor data without any human interaction.
+Now you can poweron it from USB charger and place at bathroom, data will be transfered automatically.
