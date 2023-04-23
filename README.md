@@ -1,5 +1,5 @@
 # RPi Pico remote sensor shield
-[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) shield for sensors and wireless data transfer
+[Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/) shield for sensors and wireless data transfer with [RFM75 2.4GHz radiomodule](https://www.hoperf.com/modules/2.4g/RFM75.html)
 
 ![Board](doc/images/board_photo.png)
 
