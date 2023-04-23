@@ -73,3 +73,17 @@ from firmware import install_transmitter
 and reboot with `Ctrl+]` or switch-off/switch-on your device. This will make it transmitting sensor data without any human interaction.
 
 Now you can poweron it from USB charger and place at bathroom, data will be transfered automatically.
+
+### Development
+If you want to implement own logic, change configuration or write everything from scratch you can clone this repository and mount source directory like
+```shell
+mpremote.py mount src
+``` 
+All changes you will do will be immidiately available on your board.
+
+Only remember to perform Soft reboot befor re-importing any modules
+
+This firmware depends on [pyRFTdi](https://raw.githubusercontent.com/pavlot/pyrftdi) module. This dependencies could be installed like:
+```
+mpremote mip install https://raw.githubusercontent.com/pavlot/pyrftdi/RPPico/package.json
+```
