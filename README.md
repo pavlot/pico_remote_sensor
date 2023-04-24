@@ -83,7 +83,7 @@ All changes you will do will be immidiately available on your board.
 
 Only remember to perform Soft reboot befor re-importing any modules
 
-This firmware depends on [pyRFTdi](https://raw.githubusercontent.com/pavlot/pyrftdi) module. This dependencies could be installed like:
+This firmware depends on [pyRFTdi](https://github.com/pavlot/pyrftdi) module. This dependencies could be installed like:
 ```
 mpremote mip install https://raw.githubusercontent.com/pavlot/pyrftdi/RPPico/package.json
 ```
